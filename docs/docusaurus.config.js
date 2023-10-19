@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'sunil site',
+  title: 'sunil ghpagse',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -14,12 +14,14 @@ const config = {
   url: 'https://suniljamadar.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/testdocusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'suniljamadar', // Usually your GitHub org/user name.
   projectName: 'testdocusaurus', // Usually your repo name.
+  trailingSlash: false,
+  // deploymentBranch: 'docusaurus',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'sunil site',
+        title: 'sunil ghpages',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
